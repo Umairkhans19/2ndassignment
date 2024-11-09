@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="bg-gradient-to-r from-red-200 via-red-300 to-red-400 py-20 flex justify-center items-center">
+    <section className="bg-gradient-to-r from-red-200 via-yellow-300 to-red-400 py-20 flex justify-center items-center">
       <div className="bg-white rounded-xl shadow-lg p-12 max-w-3xl text-center border-4 border-red-500 transition-transform transform hover:scale-105 hover:rotate-2">
         <h2 className="text-4xl font-bold text-gray-900"> Welcome to the AL-FALAH EVENTS (Hero Section) </h2>
         <p className="mt-6 text-gray-700 text-lg leading-relaxed">
