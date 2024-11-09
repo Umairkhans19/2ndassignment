@@ -1,5 +1,6 @@
 import Link from "next/link";
 
+
 const Header = () => {
     return (
       <header className="bg-gradient-to-r from-gray-700 via-gray-900 to-black text-white py-6 shadow-md">
@@ -8,16 +9,16 @@ const Header = () => {
           <nav>
             <ul className="flex space-x-8">
               <li>
-                <a href="/" className="hover:text-yellow-400 transition duration-300 ease-in-out text-lg">Home</a>
+                <Link href="/" className="hover:text-yellow-400 transition duration-300 ease-in-out text-lg">Home</Link>
               </li>
               <li>
-                <a href="/about" className="hover:text-yellow-400 transition duration-300 ease-in-out text-lg">About</a>
+                <Link href="/about" className="hover:text-yellow-400 transition duration-300 ease-in-out text-lg">About</Link>
               </li>
               <li>
-                <a href="/contact" className="hover:text-yellow-400 transition duration-300 ease-in-out text-lg">Contact</a>
+                <Link href="/contact" className="hover:text-yellow-400 transition duration-300 ease-in-out text-lg">Contact</Link>
               </li>
               <li>
-                <a href="/service" className="hover:text-yellow-400 transition duration-300 ease-in-out text-lg">Service</a>
+                <Link href="/service" className="hover:text-yellow-400 transition duration-300 ease-in-out text-lg">Service</Link>
               </li>
             </ul>
           </nav>
