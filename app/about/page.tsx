@@ -6,10 +6,8 @@ const AboutPage = () => {
       <div className="max-w-2xl mx-auto p-6 bg-white rounded-lg shadow-md">
         <h2 className="text-3xl font-bold text-gray-800 mb-4">
           WELCOME TO 
-        
-        
-          <b> AL-FALAH EVENTS </b></h2>
-        
+          <b> AL-FALAH EVENTS </b>
+          </h2>
         
         <p className="text-gray-600 text-lg leading-relaxed">
         Since 2000, AL-FALAH EVENTS has been dedicated to creating exceptional and unforgettable

@@ -1,16 +1,20 @@
 const Hero = () => {
   return (
-    <section className="bg-gradient-to-r from-red-200 via-yellow-300 to-red-400 py-20 flex justify-center items-center">
-      <div className="bg-white rounded-xl shadow-lg p-12 max-w-3xl text-center border-4 border-red-500 transition-transform transform hover:scale-105 hover:rotate-2">
-        <h2 className="text-4xl font-bold text-gray-900"> Welcome to the AL-FALAH EVENTS (Hero Section) </h2>
-        <p className="mt-6 text-gray-700 text-lg leading-relaxed">
+    <section className="bg-gradient-to-b from-gray-100 to-gray-200 py-24 flex justify-center items-center">
+      <div className="bg-white rounded-lg shadow-lg p-16 max-w-2xl text-center border border-gray-300 transition-transform
+       transform hover:scale-105 hover:shadow-2xl">
+        <h2 className="text-3xl font-semibold text-gray-600 mb-2 tracking-tight">
+          Welcome to
+        </h2>
 
-          We give full liberty to the ideas of clients and do our best to execute them as 
-          smartly and realistically as possible. We strive to add value to our service,
-          providing cohesive corporate event planning while outlining your event strategy.
-          Handling one event at a time help AL-FALAH EVENTS full resources towards exceptional
-          and well focused event management.
-          
+        <h1 className="text-5xl font-extrabold text-gray-800 tracking-tight leading-tight">
+          <span className="text-indigo-600">AL-FALAH EVENTS</span>
+        </h1>
+
+        <p className="mt-6 text-gray-600 text-lg leading-relaxed">
+          We bring your vision to life with creativity and precision. Our team is dedicated to delivering
+           seamless and impactful events, focusing entirely on one event at a time to ensure meticulous 
+           attention to detail. Trust AL-FALAH EVENTS for corporate event planning that elevates your ideas.
         </p>
       </div>
     </section>

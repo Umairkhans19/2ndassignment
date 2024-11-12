@@ -4,9 +4,10 @@ const ContactPage = () => {
   return (
     <div className="flex items-center justify-center min-h-screen bg-pink-200">
       <div className="max-w-lg mx-auto p-8 bg-white rounded-lg shadow-md">
-        <h2 className="text-4xl font-bold text-gray-800 mb-6">Get in Touch</h2>
+      <h2 className="text-4xl font-extrabold text-purple-900 mb-6 tracking-tight">
+          Connect with Us </h2>
         <p className="text-gray-600 mb-4">
-          We would love to hear from you! Please fill out the form below to contact us.
+        Have a question or feedback? Fill out the form below, and we will be in touch soon!
         </p>
 
         <form>
